@@ -71,6 +71,6 @@ Review the contents of example-card.json, Example.jsx, serverless.json and examp
 
 ### Deploy changes to HubSpot
 
-1. Open the Example.jsx file in the app/extensions folder, in a code editor program and edit the HTML
-2. Upload your updated files with `hs project upload --account=[your account name]`
+1. Open the Example.jsx file in a code editor program and edit the HTML
+2. Upload your updated files with `hs project upload --account=[your account id]`
 3. Review the changes on your CRM 
