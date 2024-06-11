@@ -5,7 +5,9 @@ The following are instructions to create a simple CRM UI card and deploy it to H
 ## Pre-requisites
 You will need the following installed on your local machine:
 1. [version 20 or higher of NodeJS](https://nodejs.org/) 
-https://kinsta.com/blog/how-to-install-node-js/#how-to-install-nodejs-on-windows 
+
+Instructions: (https://kinsta.com/blog/how-to-install-node-js/#how-to-install-nodejs-on-windows)
+
 2. Code editor program such as [Sublime](https://www.sublimetext.com/download), [Atom](https://atom.io/). If you install [Visual Studio Code](https://code.visualstudio.com/download), it comes with an in-built terminal.
 3. Terminal program such as [Git Bash](https://gitforwindows.org/), [Hyper](https://hyper.is/) 
 
@@ -42,6 +44,7 @@ npm install
 ```
 If you run into an error, just repeat step 4 and choose the newly created sandbox
 ```
+5. Press q to quit the running process
 6. Upload your files to the project with `hs project upload --account=[your account id]` 
 
 7. Click on the link in your terminal response to open the project created in the sandbox/prod portal
