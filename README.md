@@ -4,15 +4,15 @@ The following are instructions to create a simple CRM UI card and deploy it to H
 
 ## Pre-requisites
 You will need the following installed on your local machine:
-1. [version 20 or higher of NodeJS](https://nodejs.org/) 
+1. Code editor program such as [Sublime](https://www.sublimetext.com/download), [Atom](https://atom.io/). If you install [Visual Studio Code](https://code.visualstudio.com/download), it comes with an in-built terminal.
+2. Terminal program such as [Git Bash](https://gitforwindows.org/), [Hyper](https://hyper.is/) 
+3. [version 20 or higher of NodeJS](https://nodejs.org/) 
 
-Instructions: (https://kinsta.com/blog/how-to-install-node-js/#how-to-install-nodejs-on-windows)
+    _If you're on Windows and you don't see a .msi file, you may need to download NodeJS a second time_ 
 
-2. Code editor program such as [Sublime](https://www.sublimetext.com/download), [Atom](https://atom.io/). If you install [Visual Studio Code](https://code.visualstudio.com/download), it comes with an in-built terminal.
-3. Terminal program such as [Git Bash](https://gitforwindows.org/), [Hyper](https://hyper.is/) 
+    Instructions: (https://kinsta.com/blog/how-to-install-node-js)
 
-You will need to 
-1. Check that your portal is on the [CRM Development Tools beta](https://developers.hubspot.com/docs/platform/crm-development-tools-overview#:~:text=If%20you%27re%20not%20currently%20enrolled%20in%20the%20CRM%20development%20tools%20beta%2C%20you%20can%20join%20directly%20form%20your%20HubSpot%20account%3A)
+You will also need to check that your portal is on the [CRM Development Tools beta](https://developers.hubspot.com/docs/platform/crm-development-tools-overview#:~:text=If%20you%27re%20not%20currently%20enrolled%20in%20the%20CRM%20development%20tools%20beta%2C%20you%20can%20join%20directly%20form%20your%20HubSpot%20account%3A)
 
 ## Deploy a template CRM UI extension to HubSpot
 ### Install and connect the HubSpot CLI
@@ -23,6 +23,11 @@ You will need to
 `cd nano-stack-crm-ui`
 
 2. Install the HubSpot CLI using `npm install -g @hubspot/cli@latest`
+
+    If you're on Mac, and see an error, try running this instead
+    ```
+    sudo npm install -g @hubspot/cli@latest
+    ```
 3. Connect to your HubSpot portal with `hs init`
 
 4. Follow the prompts to create a personal access key in your web browser. Please check the options under "Sandboxes" and "Serverless Functions"
