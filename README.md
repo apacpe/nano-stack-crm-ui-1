@@ -17,10 +17,11 @@ You will need to
 ## Deploy a template CRM UI extension to HubSpot
 ### Install and connect the HubSpot CLI
 1. In your local machine, create a directory and change your active directory to it
-```
-mkdir nano-stack-crm-ui
-cd nano-stack-crm-ui
-```
+
+`mkdir nano-stack-crm-ui`
+
+`cd nano-stack-crm-ui`
+
 2. Install the HubSpot CLI using `npm install -g @hubspot/cli@latest`
 3. Connect to your HubSpot portal with `hs init`
 
@@ -36,10 +37,11 @@ cd nano-stack-crm-ui
 2. Select the `CRM getting started project` template
 
 3. Change your active directory and load the dependencies required to start local development server.
-```
-cd <your sub-folder name>
-npm install
-```
+
+`cd <your sub-folder name>`
+
+`npm install`
+
 4. Run `hs project dev` in this sub-folder and choose to create and deploy to a sandbox or to your main account.
 ```
 If you run into an error, just repeat step 4 and choose the newly created sandbox
@@ -49,7 +51,7 @@ If you run into an error, just repeat step 4 and choose the newly created sandbo
 
 7. Click on the link in your terminal response to open the project created in the sandbox/prod portal
 
-8. In your HS portal, go to Contacts Settings and add the CRM UI card to the middle column of your contact records. Check that you're able to see the "Example card" appear on any contact record. 
+8. In your HS portal, go to Settings > Objects > Contacts > Record customization and add the CRM UI card to the middle column of your contact records. Check that you're able to see the "Example card" appear on any contact record. 
 ```
 Type some text into the input field and click on "Click Me!"
 ```
