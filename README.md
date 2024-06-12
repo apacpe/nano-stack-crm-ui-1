@@ -76,4 +76,7 @@ Review the contents of example-card.json, Example.jsx, serverless.json and examp
 
 1. Open the Example.jsx file in a code editor program and edit the HTML
 2. Upload your updated files with `hs project upload --account=[your account id]`
-3. Review the changes on your CRM 
+3. Review the changes on your CRM
+
+---
+Refer to [this resource](https://docs.google.com/document/d/158lC7iaTETgKKQVDs4rdOBRZ_9vSUIBIlpByFh0b_4o/edit#heading=h.gzn6elt46xf7) to troubleshoot common errors encountered during this session. 
