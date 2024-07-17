@@ -36,7 +36,7 @@ Before your first training, you must complete the following:
 
 2. Respond to the prompt "Where should the project be created?" with `.` to create the project in the folder you are currently in. 
 
-3. Respond to the prompt "Choose a project template" with `Select the `CRM getting started project` template`
+3. Respond to the prompt "Choose a project template" with `Select the 'CRM getting started project' template`
 
 4. Load the dependencies required to start local development server using `npm install`
 
