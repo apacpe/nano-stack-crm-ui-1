@@ -22,21 +22,21 @@ Before your first training, you must complete the following:
 
 3. Install the HubSpot CLI using `npm install -g @hubspot/cli@latest` You should see the installation loading and completed on your terminal.
 
-4. Connect to your HubSpot portal with `hs init`
+4. Connect to your HubSpot portal with `hs init`. 
 
-5. Under Open hubspot.com to copy your personal access key, enter `Y`.This will launch HubSpot in a web browser.
+5. Respond to the prompt "Open hubspot.com to copy your personal access key?" with `Y`.This will launch HubSpot in a web browser.
 
-6. Follow the prompts to create a personal access key in your web browser. Please check the options under "Sandboxes" and "Serverless Functions"
+6. Follow the prompts to create a personal access key in your web browser. Please check the options under "Sandboxes" and "Serverless Functions". If you already have a personal access key created in your portal, ensure that "Sandboxes" and "Serverless Functions" are selected scopes.
 
-7. Copy and paste the personal access key into your terminal to authorize the CLI on your local machine to interact with your HubSpot account.
+7. Copy and paste the personal access key into your terminal to authorize the CLI on your local machine to interact with your HubSpot account. Follow the prompts to name the account and set it as default. 
 
 ### Create a project and upload a template 
 
-1. Create a project in your portal with `hs project create` . Then, follow the prompts to name your project and save it in a sub-folder. It is recommended to give your new project a short and simple name. 
+1. Create a project in your portal with `hs project create`, then give your project a short and simple name. 
 
-2. Select the `CRM getting started project` template
+2. Respond to the prompt "Where should the project be created?" with `.` to create the project in the folder you are currently in. 
 
-3. Change your active directory using `cd <your sub-folder name>`
+3. Respond to the prompt "Choose a project template" with `Select the `CRM getting started project` template`
 
 4. Load the dependencies required to start local development server using `npm install`
 
